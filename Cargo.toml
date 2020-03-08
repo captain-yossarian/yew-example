@@ -1,0 +1,15 @@
+[package]
+name = "yew-app"
+version = "0.1.0"
+authors = ["Serhii <sergiybiluk@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+yew = { path = "../yew" }
+
+[features]
+std_web = ["yew/std_web"]
+web_sys = ["yew/web_sys"]
